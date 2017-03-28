@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ApplePayDonation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Donate Screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkd-VS-WRB">
+                                <rect key="frame" x="118" y="49" width="139" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AUl-AR-kcN">
+                                <rect key="frame" x="40" y="90" width="288" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="continue"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qHF-MM-L8J">
+                                <rect key="frame" x="40" y="133" width="288" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="continue"/>
+                            </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank You for donation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bZ-0k-bez">
+                                <rect key="frame" x="99" y="275" width="177.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ari-H8-r2y">
+                                <rect key="frame" x="142" y="231" width="92" height="30"/>
+                                <state key="normal" title="Donate Again"/>
+                                <connections>
+                                    <action selector="didTapOnDonateAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ss7-rJ-NZ4"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Donation Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sy0-bt-WG7">
+                                <rect key="frame" x="40" y="173" width="288" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" returnKeyType="done"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qHF-MM-L8J" firstAttribute="top" secondItem="AUl-AR-kcN" secondAttribute="bottom" constant="13" id="0Um-RO-ZwX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AUl-AR-kcN" secondAttribute="trailing" constant="31" id="1Dk-xk-5D5"/>
+                            <constraint firstItem="AUl-AR-kcN" firstAttribute="top" secondItem="Bkd-VS-WRB" secondAttribute="bottom" constant="15" id="3pq-yJ-rlV"/>
+                            <constraint firstItem="ari-H8-r2y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6K8-Rx-Rde"/>
+                            <constraint firstItem="sy0-bt-WG7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="9ha-bs-pxR"/>
+                            <constraint firstItem="Bkd-VS-WRB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="A9S-T1-qGl"/>
+                            <constraint firstItem="qHF-MM-L8J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="Enu-pu-0MU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sy0-bt-WG7" secondAttribute="trailing" constant="31" id="IWy-cF-d7W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qHF-MM-L8J" secondAttribute="trailing" constant="31" id="JkZ-lv-d5m"/>
+                            <constraint firstItem="sy0-bt-WG7" firstAttribute="top" secondItem="qHF-MM-L8J" secondAttribute="bottom" constant="10" id="P2y-WL-JvS"/>
+                            <constraint firstItem="AUl-AR-kcN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="RgT-Xg-gPI"/>
+                            <constraint firstItem="6bZ-0k-bez" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n59-Sc-GzX"/>
+                            <constraint firstItem="ari-H8-r2y" firstAttribute="top" secondItem="sy0-bt-WG7" secondAttribute="bottom" constant="28" id="ufx-kp-B38"/>
+                            <constraint firstItem="Bkd-VS-WRB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="usf-5v-Q2U"/>
+                            <constraint firstItem="6bZ-0k-bez" firstAttribute="top" secondItem="ari-H8-r2y" secondAttribute="bottom" constant="14" id="yug-3w-vze"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnDonate" destination="ari-H8-r2y" id="CIm-YI-aU8"/>
+                        <outlet property="lblThankyouMessage" destination="6bZ-0k-bez" id="6ui-ii-bgu"/>
+                        <outlet property="txtDonationAmount" destination="sy0-bt-WG7" id="e7c-xG-MJm"/>
+                        <outlet property="txtUserEmail" destination="qHF-MM-L8J" id="4Mi-BV-v0a"/>
+                        <outlet property="txtUserName" destination="AUl-AR-kcN" id="ARd-tT-pXt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="130"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_ApplePayDonationTests {
+  umbrella header "Pods-ApplePayDonationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

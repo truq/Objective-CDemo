@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>city</key>
+	<array>
+		<string>Abbottabad </string>
+		<string>Attock </string>
+		<string>Bagh </string>
+		<string>Bahawal Nagar </string>
+		<string>Bahawalpur </string>
+		<string>Bannu </string>
+		<string>Batkhela </string>
+		<string>Bhakkar </string>
+		<string>Bhimber </string>
+		<string>Chakwal </string>
+		<string>Charsadda </string>
+		<string>Chitral </string>
+		<string>Dadu </string>
+		<string>Dera Ghazi Khan </string>
+		<string>Dera Ismail Khan </string>
+		<string>Faisalabad </string>
+		<string>Gilgit </string>
+		<string>Gujar Khan </string>
+		<string>Gujranwala </string>
+		<string>Hafiz Abad </string>
+		<string>Haripur </string>
+		<string>Hyderabad </string>
+		<string>Islamabad </string>
+		<string>Jacobabad </string>
+		<string>Jhang </string>
+		<string>Jhelum </string>
+		<string>Kahuta </string>
+		<string>Karachi </string>
+		<string>Karak </string>
+		<string>Kasur </string>
+		<string>Khair Pur </string>
+		<string>Khanewal </string>
+		<string>Khushab </string>
+		<string>Khuzdar </string>
+		<string>Kohat </string>
+		<string>Korangi </string>
+		<string>Kotli </string>
+		<string>Lahore </string>
+		<string>Lakki Marwat </string>
+		<string>Larkana </string>
+		<string>Layyah </string>
+		<string>Loralai </string>
+		<string>Mandi Bahauddin </string>
+		<string>Mansehra </string>
+		<string>Mardan </string>
+		<string>Mianwali </string>
+		<string>Mirpur Khas </string>
+		<string>Multan </string>
+		<string>Murree </string>
+		<string>Muzaffarabad </string>
+		<string>Muzaffargarh </string>
+		<string>Narowal </string>
+		<string>Nawabshah </string>
+		<string>New Town </string>
+		<string>Nowshera </string>
+		<string>Okara </string>
+		<string>Peshawar </string>
+		<string>Quetta </string>
+		<string>Rahimyar Khan </string>
+		<string>Rawalkot</string>
+		<string>Rawalpindi </string>
+		<string>Sahiwal </string>
+		<string>Saidu Sharif </string>
+		<string>Sanghar </string>
+		<string>Sargodha </string>
+		<string>Sheikhupura </string>
+		<string>Shikarpur </string>
+		<string>Sialkot </string>
+		<string>Sibi </string>
+		<string>Sukkur </string>
+		<string>Talagang </string>
+		<string>Turbat </string>
+		<string>Toba Take Singh </string>
+		<string>Vehari </string>
+		<string>Wah Cantonment </string>
+	</array>
+</dict>
+</plist>

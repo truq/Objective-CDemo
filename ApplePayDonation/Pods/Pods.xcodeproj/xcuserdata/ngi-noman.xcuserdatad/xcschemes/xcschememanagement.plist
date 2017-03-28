@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ApplePayDonation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ApplePayDonationTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ApplePayDonationUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Stripe-Stripe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Stripe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>002FF41A14FA36AA2CBA1CD456D3D72E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C509DBB7FD20CDFFC095DC87619DDCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27052EAD9C39A04696C0A3D82475783E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>794494B5AE88C5EC9075E5D159D51EEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>86CE979BBA9B3E7E26A7E0AFC4AC808E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

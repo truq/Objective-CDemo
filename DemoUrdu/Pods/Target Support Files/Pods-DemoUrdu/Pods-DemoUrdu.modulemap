@@ -1,0 +1,6 @@
+framework module Pods_DemoUrdu {
+  umbrella header "Pods-DemoUrdu-umbrella.h"
+
+  export *
+  module * { export * }
+}

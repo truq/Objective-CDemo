@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="DemoUrdu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ایکسپریس میڈیا گروپ اور اس کی پالیسی کا کمنٹس سے متفق ہونا ضروری نہیں۔" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tI-5L-rJm">
+                                <rect key="frame" x="-119" y="621" width="484" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="demourdu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gtK-eZ-KeC">
+                                <rect key="frame" x="20" y="115" width="335" height="232"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="کراچی میں بچوں کے اغوا کی افواہیں پنجاب سے پھیلائی جا رہی ہیں، مولابخش چانڈیو" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dn-qM-dix">
+                                <rect key="frame" x="20" y="50" width="335" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="نیشنل ایکشن پلان پرعمل نہ ہونا وفاقی حکومت کی نااہلی ہے، مشیر اطلاعات سندھ فوٹو: فائل" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvo-pg-eB2">
+                                <rect key="frame" x="20" y="355" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EY7-1G-oq1">
+                                <rect key="frame" x="56" y="373" width="320" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="کراچی: مشیر اطلاعات سندھ مولا بخش چانڈیو کہتے ہیں کہ کراچی میں بچوں کے اغوا کی افواہیں پنجاب سے پھیلائی جا رہی ہیں۔" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ylD-v0-sO9">
+                                <rect key="frame" x="52" y="378" width="308" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="ZHL-ue-Zy7">
+                                <rect key="frame" x="20" y="433" width="335" height="149"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">کراچی میں سندھ کابینہ کے اجلاس کے بعد میڈیا بریفنگ کے دوران مولا بخش چانڈیو نے کہا کہ نیشنل ایکشن پلان پرعمل نہ ہونا وفاقی حکومت کی نااہلی ہے، جہاں جرائم زیادہ ہیں وہاں نیشنل ایکشن پلان پرعمل نہیں ہورہا کیونکہ وہاں فرشتوں کی حکومت ہے۔ نیشنل ایکشن پلان کے تحت سندھ میں جاری آپریشن میں تیزی لا رہے ہیں اورصوبے میں نیشنل ایکشن پلان کے تمام نکات پر عملدرآمد بھی نظر آئے گا۔
+مولابخش چانڈیو کا کہنا تھا کہ کراچی سمیت سندھ بھر میں بچوں کے اغوا کے کوئی واقعات نہیں ہوئے، بچوں کے اغوا کی افواہیں پنجاب حکومت کے محافظوں نے پھیلائیں۔</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9N-oW-vLS">
+                                <rect key="frame" x="159" y="12" width="46" height="30"/>
+                                <state key="normal" title="چانڈیو"/>
+                                <connections>
+                                    <segue destination="Ppf-pd-Faf" kind="presentation" id="0uV-tC-qxb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68.5" y="-63.5"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="LGg-Uy-6nq">
+            <objects>
+                <viewController id="Ppf-pd-Faf" customClass="WebViewController" customModule="DemoUrdu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jDK-gt-row"/>
+                        <viewControllerLayoutGuide type="bottom" id="dDb-rs-BKn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jtu-YJ-XeL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhU-Nj-JGF">
+                                <rect key="frame" x="0.0" y="43" width="375" height="624"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Ppf-pd-Faf" id="pR5-Nf-25i"/>
+                                </connections>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rns-Zc-MqE">
+                                <rect key="frame" x="205" y="5" width="38" height="30"/>
+                                <state key="normal" title="سائنس"/>
+                                <connections>
+                                    <action selector="didTapOnScience:" destination="Ppf-pd-Faf" eventType="touchUpInside" id="gT1-My-ULJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOZ-vU-ZQm">
+                                <rect key="frame" x="115" y="5" width="30" height="30"/>
+                                <state key="normal" title="کھیل"/>
+                                <connections>
+                                    <action selector="didTapOnSports:" destination="Ppf-pd-Faf" eventType="touchUpInside" id="bjM-KY-UB7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="nhU-Nj-JGF" id="tgU-FQ-vcy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fph-Rn-MyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="464.5" y="-57.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="demourdu.jpg" width="640" height="480"/>
+    </resources>
+</document>
